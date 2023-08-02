@@ -1,11 +1,7 @@
-import styles from './App.module.css';
+import AboutMe from './components/About/AboutMe';
 
 function App() {
-  return (
-    <div className={styles.frame}>
-      <img src="/prof_photo.jpeg" className="logo" alt="Photo of author" />
-    </div>
-  );
+  return <AboutMe />;
 }
 
 export default App;
