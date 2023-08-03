@@ -3,19 +3,27 @@
   src: url('/Raleway-Medium.ttf');
 }
 
+.container {
+  display: flex;
+  height: 35vh;
+  width: 90vw;
+  align-items: center;
+}
+
 .frame {
-  width: 30vw;
+  width: fit-content;
   position: relative;
   max-height: min-content;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  z-index: 1;
 }
 
 img {
   object-fit: contain;
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 32vw;
 }
 
 .caption {
@@ -23,7 +31,13 @@ img {
   position: absolute;
   z-index: 2;
   color: rgb(8, 8, 68);
-  font-size: 28px;
-  margin-bottom: 2%;
+  font-size: x-large;
+  margin-bottom: 7%;
   text-shadow: rgb(221, 219, 219) 1px 1px 5px;
+}
+
+.bio {
+  font-family: 'Raleway';
+  background-color: pink;
+  padding: 5px 10px 10px 10px;
 }
