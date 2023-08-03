@@ -1,10 +1,29 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('/Raleway-Medium.ttf');
+}
+
 .frame {
   width: 30vw;
-  height: 40vh;
+  position: relative;
+  max-height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 img {
   object-fit: contain;
   max-width: 100%;
   height: auto;
+}
+
+.caption {
+  font-family: 'Raleway';
+  position: absolute;
+  z-index: 2;
+  color: rgb(8, 8, 68);
+  font-size: 28px;
+  margin-bottom: 2%;
+  text-shadow: rgb(221, 219, 219) 1px 1px 5px;
 }
