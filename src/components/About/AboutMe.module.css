@@ -41,3 +41,8 @@ img {
   background-color: pink;
   padding: 5px 10px 10px 10px;
 }
+
+.icon {
+  height: 3vw;
+  width: auto;
+}
