@@ -1,0 +1,20 @@
+.container {
+  width: 280px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.screenshot {
+  background-color: pink;
+  width: 280px;
+  height: 200px;
+}
+
+.projectDetails {
+  width: 280px;
+  height: 130px;
+  background-color: blueviolet;
+}
