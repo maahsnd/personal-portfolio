@@ -20,14 +20,15 @@ function AboutMe() {
             me about me about me about me about me about me about me about me
           </p>
 
-          <a href="https://github.com/maahsnd">
-            <img src={githubLink} className={styles.icon} />
-          </a>
-
-          <a href="https://www.linkedin.com/in/nicholas-maahs/">
-            {' '}
-            <img src={linkedinLink} className={styles.icon} />
-          </a>
+          <div className={styles.btnContainer}>
+            <a href="https://github.com/maahsnd">
+              <img src={githubLink} className={styles.icon} />
+            </a>
+            <a href="https://www.linkedin.com/in/nicholas-maahs/">
+              {' '}
+              <img src={linkedinLink} className={styles.icon} />
+            </a>
+          </div>
         </div>
       </div>
     </>
