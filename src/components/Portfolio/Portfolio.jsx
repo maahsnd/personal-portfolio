@@ -5,6 +5,9 @@ const Portfolio = () => {
   return (
     <div className={styles.container}>
       <Project />
+      <Project />
+      <Project />
+      <Project />
     </div>
   );
 };

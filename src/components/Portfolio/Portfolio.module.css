@@ -1,11 +1,11 @@
 .container {
-  border: 2px white solid;
   width: 85vw;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+  max-width: 950px;
 }
 
 @media (max-width: 400px) {
