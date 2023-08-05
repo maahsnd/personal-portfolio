@@ -5,10 +5,14 @@
 
 .container {
   display: flex;
-  height: 35vh;
-  width: 90vw;
+  height: min-content;
+  width: 85vw;
   align-items: center;
   margin-bottom: 10px;
+  flex-direction: column;
+}
+.bioText > * {
+  margin-bottom: 3px;
 }
 
 .frame {
@@ -40,7 +44,9 @@ img {
 .bio {
   font-family: 'Raleway';
   background-color: pink;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
@@ -53,4 +59,25 @@ img {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
+  z-index: 0;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 150px;
+    height: auto;
+  }
+  .caption {
+    font-size: medium;
+  }
+  .bio {
+    font-size: 70%;
+  }
+  .btnContainer {
+    height: fit-content;
+  }
+  .icon {
+    height: 25px;
+    width: auto;
+  }
 }

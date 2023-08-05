@@ -14,11 +14,14 @@ function AboutMe() {
           <span className={styles.caption}>Nicholas Maahs</span>
         </div>
         <div className={styles.bio}>
-          <h3>About me</h3>
-          <p>
-            about me about me about me about me about me about me about me about
-            me about me about me about me about me about me about me about me
-          </p>
+          <div className={styles.bioText}>
+            <h3>About me</h3>
+            <p>
+              about me about me about me about me about me about me about me
+              about me about me about me about me about me about me about me
+              about me
+            </p>
+          </div>
 
           <div className={styles.btnContainer}>
             <a href="https://github.com/maahsnd">

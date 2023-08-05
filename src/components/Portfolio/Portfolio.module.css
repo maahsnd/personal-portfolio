@@ -1,7 +1,7 @@
 .container {
   border: 2px white solid;
-  width: 90vw;
-  height: 40vh;
+  width: 85vw;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -10,7 +10,7 @@
 
 @media (max-width: 400px) {
   .container {
-    height: 320px;
+    height: fit-content;
     flex-direction: column;
   }
 }

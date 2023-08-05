@@ -4,12 +4,10 @@ import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   return (
-    <>
-      <div className="page">
-        <AboutMe />
-        <Portfolio />
-      </div>
-    </>
+    <div className="page">
+      <AboutMe />
+      <Portfolio />
+    </div>
   );
 }
 
