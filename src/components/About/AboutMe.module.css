@@ -10,6 +10,8 @@
   align-items: center;
   margin-bottom: 10px;
   flex-direction: column;
+  max-width: 470px;
+  max-height: 800px;
 }
 .bioText > * {
   margin-bottom: 3px;
@@ -23,12 +25,16 @@
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
+  max-width: 230px;
+  max-height: 300px;
 }
 
 img {
   object-fit: contain;
   width: auto;
   height: 32vw;
+  max-width: 230px;
+  max-height: 300px;
 }
 
 .caption {
@@ -39,6 +45,7 @@ img {
   font-size: x-large;
   margin-bottom: 7%;
   text-shadow: rgb(221, 219, 219) 1px 1px 5px;
+  max-width: 230px;
 }
 
 .bio {

@@ -10,7 +10,11 @@ function AboutMe() {
     <>
       <div className={styles.container}>
         <div className={styles.frame}>
-          <img src="/prof_photo.jpeg" className="logo" alt="Photo of author" />
+          <img
+            src="/prof_photo_large.jpeg"
+            className="logo"
+            alt="Photo of author smiling"
+          />
           <span className={styles.caption}>Nicholas Maahs</span>
         </div>
         <div className={styles.bio}>
