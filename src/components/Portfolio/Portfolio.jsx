@@ -8,8 +8,14 @@ const Portfolio = () => {
 
   return (
     <div className={styles.container}>
-      <Project projectInfo={data[0]} />
-      <Project projectInfo={data[1]} />
+      <Project
+        title={data[0].title}
+        description={data[0].description}
+        siteLink={data[0].siteLink}
+        repoLink={data[0].repoLink}
+        screenShotSrc={data[0].screenShotSrc}
+      />
+      <Project />
       <Project />
       <Project />
     </div>
