@@ -54,6 +54,7 @@ img {
   padding: 5px 10px 5px 10px;
   display: flex;
   flex-direction: column;
+  max-width: 950px;
 }
 
 .icon {
@@ -69,13 +70,10 @@ img {
   z-index: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   img {
     width: 150px;
     height: auto;
-  }
-  .caption {
-    font-size: medium;
   }
   .bio {
     font-size: 70%;
@@ -86,5 +84,11 @@ img {
   .icon {
     height: 25px;
     width: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .caption {
+    font-size: 16px;
   }
 }
