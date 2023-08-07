@@ -20,3 +20,41 @@
   height: 130px;
   background-color: blueviolet;
 }
+
+.topBar {
+  display: flex;
+  height: 25%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+  padding: 3px;
+  margin-top: 4px;
+  line-height: 2;
+}
+
+a > svg {
+  margin-bottom: -11px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3px;
+  z-index: 0;
+  width: 80px;
+  height: 28px;
+}
+
+h3 {
+  font-size: 14px;
+  margin: 0 0 0 8px;
+}
+
+p {
+  font-size: 12px;
+  margin-left: 8px;
+}

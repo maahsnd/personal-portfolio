@@ -1,4 +1,5 @@
 import styles from './Project.module.css';
+import Icon from '@mdi/react';
 import { mdiOpenInNew } from '@mdi/js';
 
 const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
@@ -14,7 +15,7 @@ const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
           />
         </a>
         <a href={siteLink}>
-          <img src={mdiOpenInNew} className={styles.icon} />
+          <Icon path={mdiOpenInNew} size={1} />
         </a>
       </div>
     );
@@ -23,14 +24,14 @@ const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
   return (
     <div className={styles.container}>
       <div className={styles.screenshot}>
-        <img src={screenShotSrc} alt={'Screenshot of' + title} />
+        <img src={screenShotSrc} alt={'Screenshot of ' + title} />
       </div>
       <div className={styles.projectDetails}>
         <div className={styles.topBar}>
           <h3 className={styles.projectName}>{title}</h3>
           <div className={styles.buttons}>{buttons(repoLink, siteLink)}</div>
-          <p className={styles.projectDescription}>{description}</p>
         </div>
+        <p className={styles.projectDescription}>{description}</p>
       </div>
     </div>
   );
