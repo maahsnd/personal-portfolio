@@ -21,9 +21,13 @@ function AboutMe() {
           <div>
             <h1 className={styles.bioTitle}> About me</h1>
             <p className={styles.bioText}>
-              about me about me about me about me about me about me about me
-              about me about me about me about me about me about me about me
-              about me
+              I'm a software engineer, self-taught via Harvard's CS50x and The
+              Odin Project. I'm an obsessive problem-solver, a life-long
+              learner, and a compassionate co-worker. A former journalist and
+              marketing writer, I communicate economically and with an elegance
+              few engineers can rival. I consider myself a craftsman, and strive
+              to engineer as I write, pursuing the joy of writing clean,
+              thoughtful code.
             </p>
           </div>
 
