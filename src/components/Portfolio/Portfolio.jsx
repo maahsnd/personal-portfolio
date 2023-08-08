@@ -15,7 +15,13 @@ const Portfolio = () => {
         repoLink={data[0].repoLink}
         screenShotSrc={data[0].screenShotSrc}
       />
-      <Project />
+      <Project
+        title={data[1].title}
+        description={data[1].description}
+        siteLink={data[1].siteLink}
+        repoLink={data[1].repoLink}
+        screenShotSrc={data[1].screenShotSrc}
+      />
       <Project />
       <Project />
     </div>
