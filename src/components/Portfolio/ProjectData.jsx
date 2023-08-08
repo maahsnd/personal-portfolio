@@ -7,16 +7,16 @@ const ProjectData = () => {
       siteLink: 'https://maahsnd.github.io/memory-card/',
       repoLink: 'https://github.com/maahsnd/memory-card/tree/Main',
       screenShotSrc:
-        'https://res.cloudinary.com/dscsiijis/image/upload/v1691510846/Screen_Shot_2023-08-07_at_10.01.48_AM_d6tpp2.png'
+        'https://res.cloudinary.com/dscsiijis/image/upload/v1691516016/portfolio%20assets/Screen_Shot_2023-08-08_at_10.32.34_AM_yizmhv.png'
     },
     {
       title: 'Shopping Cart App',
       description:
-        'A basic e-commerce build, featuring a homepage and product page where the users can add items to a cart. Note: content null for time being; site does not implement checkout.',
+        'A basic e-commerce site, featuring a product page where users can add items to a cart. Note: content null for time being; checkout not implemented.',
       siteLink: 'https://maahsnd.github.io/shopping-cart/',
       repoLink: 'https://github.com/maahsnd/shopping-cart',
       screenShotSrc:
-        'https://res.cloudinary.com/dscsiijis/image/upload/v1691510931/Screen_Shot_2023-08-07_at_10.02.01_AM_ggrsmf.png'
+        'https://res.cloudinary.com/dscsiijis/image/upload/v1691516012/portfolio%20assets/Screen_Shot_2023-08-08_at_10.33.09_AM_stpsiu.png'
     }
   ];
 

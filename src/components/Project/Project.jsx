@@ -23,8 +23,12 @@ const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.screenshot}>
-        <img src={screenShotSrc} alt={'Screenshot of ' + title} />
+      <div className={styles.screenshotContainer}>
+        <img
+          src={screenShotSrc}
+          alt={'Screenshot of ' + title}
+          className={styles.screenshot}
+        />
       </div>
       <div className={styles.projectDetails}>
         <div className={styles.topBar}>

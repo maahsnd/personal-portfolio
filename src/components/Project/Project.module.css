@@ -1,6 +1,6 @@
 .container {
-  width: 280px;
-  height: 290px;
+  width: 647.5px;
+  height: 557px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -9,15 +9,25 @@
   margin-bottom: 10px;
 }
 
+.screenshotContainer {
+  background-color: rgba(255, 192, 203, 0.483);
+  width: 647.5px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px rgba(255, 192, 203, 0.624) solid;
+}
+
 .screenshot {
-  background-color: pink;
-  width: 280px;
-  height: 200px;
+  object-fit: fill;
+  max-width: 647.5px;
+  height: auto;
 }
 
 .projectDetails {
-  width: 280px;
-  height: 130px;
+  min-width: 447.5px;
+  min-height: 130px;
   background-color: blueviolet;
 }
 
@@ -50,11 +60,49 @@ a > svg {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 0 8px;
 }
 
 p {
-  font-size: 12px;
-  margin-left: 8px;
+  font-size: 16px;
+  margin: 4px 8px 4px 8px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 347.5px;
+    height: 357px;
+  }
+
+  .screenshotContainer {
+    background-color: pink;
+    width: 347.5px;
+    height: 230px;
+  }
+
+  .screenshot {
+    max-width: 347.5px;
+    height: auto;
+    object-fit: fill;
+  }
+
+  .projectDetails {
+    min-width: 280px;
+    min-height: 110px;
+  }
+
+  .icon {
+    height: 20px;
+    width: auto;
+  }
+
+  .btnContainer {
+    width: 80px;
+    height: 28px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }

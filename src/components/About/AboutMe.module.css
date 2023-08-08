@@ -6,7 +6,7 @@
 .container {
   display: flex;
   height: min-content;
-  width: 85vw;
+  width: 94vw;
   align-items: center;
   margin-bottom: 10px;
   flex-direction: column;
@@ -25,16 +25,16 @@
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
-  max-width: 230px;
-  max-height: 300px;
+  max-width: 330px;
+  max-height: 400px;
 }
 
-img {
+.logo {
   object-fit: contain;
-  width: auto;
-  height: 32vw;
-  max-width: 230px;
-  max-height: 300px;
+  height: auto;
+  width: 50vw;
+  max-width: 330px;
+  max-height: 400px;
 }
 
 .caption {
@@ -54,7 +54,9 @@ img {
   padding: 5px 10px 5px 10px;
   display: flex;
   flex-direction: column;
-  max-width: 950px;
+  max-width: 631.5px;
+  height: fit-content;
+  width: 94vw;
 }
 
 .icon {
@@ -71,12 +73,14 @@ img {
 }
 
 @media (max-width: 500px) {
-  img {
-    width: 150px;
+  .logo {
+    max-width: 180px;
     height: auto;
   }
   .bio {
     font-size: 70%;
+    padding: 2.5px 5px 2.5px 5px;
+    width: 90vw;
   }
   .btnContainer {
     height: fit-content;

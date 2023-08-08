@@ -1,5 +1,6 @@
 .container {
-  width: 85vw;
+  width: 90vw;
+  min-height: 60vh;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
@@ -10,6 +11,7 @@
 
 @media (max-width: 400px) {
   .container {
+    min-height: 60vw;
     height: fit-content;
     flex-direction: column;
   }
