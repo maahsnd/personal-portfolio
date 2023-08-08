@@ -11,7 +11,7 @@ function AboutMe() {
       <header className={styles.container}>
         <div className={styles.frame}>
           <img
-            src="/prof_photo_large.jpeg"
+            src="https://res.cloudinary.com/dscsiijis/image/upload/v1691531787/portfolio%20assets/prof_photo_large_orfrjs.jpg"
             className={styles.logo}
             alt="Photo of author smiling"
           />
