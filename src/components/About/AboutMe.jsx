@@ -8,7 +8,7 @@ function AboutMe() {
 
   return (
     <>
-      <div className={styles.container}>
+      <header className={styles.container}>
         <div className={styles.frame}>
           <img
             src="/prof_photo_large.jpeg"
@@ -18,9 +18,9 @@ function AboutMe() {
           <span className={styles.caption}>Nicholas Maahs</span>
         </div>
         <div className={styles.bio}>
-          <div className={styles.bioText}>
-            <h3>About me</h3>
-            <p>
+          <div>
+            <h1 className={styles.bioTitle}> About me</h1>
+            <p className={styles.bioText}>
               about me about me about me about me about me about me about me
               about me about me about me about me about me about me about me
               about me
@@ -37,7 +37,7 @@ function AboutMe() {
             </a>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 }

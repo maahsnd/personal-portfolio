@@ -4,10 +4,12 @@ import ProjectData from './ProjectData';
 
 const Portfolio = () => {
   const data = ProjectData();
-  console.log(data);
 
   return (
     <div className={styles.container}>
+      <div className={styles.sectionTitle}>
+        <h2>My work</h2>
+      </div>
       <Project
         title={data[0].title}
         description={data[0].description}

@@ -6,29 +6,46 @@
 .container {
   background-color: pink;
   font-family: Raleway;
+  max-width: 629.5px;
   width: 94vw;
   padding: 5px 5px 5px 13px;
+  margin-bottom: 30px;
 }
 
-h4,
-p {
-  margin: 0 0 5px 0;
+.title {
+  font-size: 26px;
+  margin: 10px 0 5px 0;
+}
+
+.text {
+  font-size: 22px;
+  margin: 5px 0 -6px 0;
 }
 
 .email {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   display: flex;
   align-items: flex-end;
+  font-size: 22px;
+  height: 40px;
 }
 a {
   margin-right: 5px;
 }
 .emailText {
-  margin-bottom: 0;
+  margin-bottom: -4px;
+  margin-top: 0px;
 }
 
 @media (max-width: 500px) {
   .container {
     max-width: 333.5px;
+  }
+  .emailText,
+  .text {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 18px;
   }
 }

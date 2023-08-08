@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('/Raleway-Medium.ttf');
+}
+
 .container {
   width: 90vw;
   min-height: 60vh;
@@ -7,6 +12,23 @@
   justify-content: space-around;
   align-content: space-around;
   max-width: 950px;
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  background-color: pink;
+  margin-bottom: 5px;
+  height: min-content;
+  width: 94vw;
+  min-width: 351.5px;
+  max-width: 647.5px;
+}
+
+.sectionTitle > h2 {
+  font-size: 26px;
+  font-family: Raleway;
+  padding-left: 13px;
+  margin: 2px 0 2px 0;
 }
 
 @media (max-width: 400px) {
@@ -14,5 +36,8 @@
     min-height: 60vw;
     height: fit-content;
     flex-direction: column;
+  }
+  .sectionTitle > h2 {
+    font-size: 18px;
   }
 }

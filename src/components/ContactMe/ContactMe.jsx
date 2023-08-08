@@ -6,8 +6,8 @@ const AboutMe = () => {
   return (
     <>
       <footer className={styles.container}>
-        <h4>Contact Me</h4>
-        <p>
+        <h4 className={styles.title}>Contact Me</h4>
+        <p className={styles.text}>
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>

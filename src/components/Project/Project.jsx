@@ -3,8 +3,6 @@ import Icon from '@mdi/react';
 import { mdiOpenInNew } from '@mdi/js';
 
 const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
-  console.log(title);
-
   const buttons = (repoLink, siteLink) => {
     return (
       <div className={styles.btnContainer}>
