@@ -24,8 +24,6 @@ const Portfolio = () => {
         repoLink={data[1].repoLink}
         screenShotSrc={data[1].screenShotSrc}
       />
-      <Project />
-      <Project />
     </div>
   );
 };
