@@ -17,6 +17,14 @@
   margin-bottom: 3px;
 }
 
+.bioText > p {
+  font-size: 20px;
+}
+
+.bioText > h3 {
+  font-size: 24px;
+}
+
 .frame {
   width: fit-content;
   position: relative;
@@ -42,7 +50,7 @@
   position: absolute;
   z-index: 2;
   color: rgb(8, 8, 68);
-  font-size: x-large;
+  font-size: 190%;
   margin-bottom: 7%;
   text-shadow: rgb(221, 219, 219) 1px 1px 5px;
   max-width: 230px;
@@ -54,7 +62,7 @@
   padding: 5px 10px 5px 10px;
   display: flex;
   flex-direction: column;
-  max-width: 631.5px;
+  max-width: 637px;
   height: fit-content;
   width: 94vw;
 }
@@ -88,6 +96,13 @@
   .icon {
     height: 25px;
     width: auto;
+  }
+  .bioText > p {
+    font-size: 12px;
+  }
+
+  .bioText > h3 {
+    font-size: 14px;
   }
 }
 

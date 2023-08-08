@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('/Raleway-Medium.ttf');
+}
+
 .container {
   width: 647.5px;
   height: 557px;
@@ -7,6 +12,7 @@
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: Raleway;
 }
 
 .screenshotContainer {
@@ -28,7 +34,7 @@
 .projectDetails {
   min-width: 447.5px;
   min-height: 130px;
-  background-color: blueviolet;
+  background-color: pink;
 }
 
 .topBar {
@@ -44,6 +50,7 @@
   padding: 3px;
   margin-top: 4px;
   line-height: 2;
+  margin-right: 2px;
 }
 
 a > svg {
@@ -60,19 +67,23 @@ a > svg {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 0 0 8px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 8px 4px 8px;
 }
 
 @media (max-width: 500px) {
   .container {
-    width: 347.5px;
+    width: 351.5px;
     height: 357px;
+  }
+
+  h3 {
+    font-size: 14px;
   }
 
   .screenshotContainer {
