@@ -4,7 +4,7 @@
 }
 
 .container {
-  background-color: pink;
+  background-color: var(--primary);
   font-family: Raleway;
   max-width: 629.5px;
   width: 94vw;
@@ -18,23 +18,30 @@
 }
 
 .text {
-  font-size: 22px;
+  font-size: 18px;
   margin: 5px 0 -6px 0;
 }
 
 .email {
   margin-bottom: 15px;
   display: flex;
+  font-size: 20px;
+  height: 35px;
   align-items: flex-end;
-  font-size: 22px;
-  height: 40px;
 }
-a {
+
+.emailIcon {
+  color: white;
+  height: 30px;
+}
+.emailA {
   margin-right: 5px;
+  height: 25px;
 }
 .emailText {
-  margin-bottom: -4px;
-  margin-top: 0px;
+  height: min-content;
+  margin: 0;
+  margin-bottom: -5px;
 }
 
 @media (max-width: 500px) {
@@ -47,5 +54,11 @@ a {
   }
   .title {
     font-size: 18px;
+  }
+  .emailIcon {
+    height: 20px;
+  }
+  .emailText {
+    margin-bottom: 2px;
   }
 }

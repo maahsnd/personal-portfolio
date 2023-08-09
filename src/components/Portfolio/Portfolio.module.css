@@ -16,7 +16,7 @@
 }
 
 .sectionTitle {
-  background-color: pink;
+  background-color: var(--primary);
   margin-bottom: 5px;
   height: min-content;
   width: 94vw;

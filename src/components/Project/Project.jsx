@@ -13,7 +13,10 @@ const Project = ({ title, description, siteLink, repoLink, screenShotSrc }) => {
           />
         </a>
         <a href={siteLink}>
-          <Icon path={mdiOpenInNew} size={1} />
+          <img
+            src="https://res.cloudinary.com/dscsiijis/image/upload/v1691596139/portfolio%20assets/new-window-svgrepo-com_2_oba4iw.svg"
+            className={styles.emailIcon}
+          />
         </a>
       </div>
     );

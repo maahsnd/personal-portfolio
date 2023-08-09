@@ -1,6 +1,4 @@
 import styles from './ContactMe.module.css';
-import Icon from '@mdi/react';
-import { mdiEmail } from '@mdi/js';
 
 const AboutMe = () => {
   return (
@@ -12,8 +10,12 @@ const AboutMe = () => {
           beneficial!
         </p>
         <div className={styles.email}>
-          <a href="mailto:nmaahs11@gmail.com">
-            <Icon path={mdiEmail} size={1} />
+          <a href="mailto:nmaahs11@gmail.com" className={styles.emailA}>
+            <img
+              className={styles.emailIcon}
+              src="https://res.cloudinary.com/dscsiijis/image/upload/v1691595031/portfolio%20assets/mail-142_1_pyqama.svg"
+              alt="Email icon"
+            />
           </a>
           <p className={styles.emailText}>nmaahs11@gmail.com</p>
         </div>
