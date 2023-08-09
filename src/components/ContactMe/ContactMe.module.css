@@ -39,7 +39,7 @@ a {
 
 @media (max-width: 500px) {
   .container {
-    max-width: 333.5px;
+    max-width: 343px;
   }
   .emailText,
   .text {

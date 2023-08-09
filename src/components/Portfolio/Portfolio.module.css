@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 90vw;
+  width: 94vw;
   min-height: 60vh;
   height: fit-content;
   display: flex;
@@ -36,8 +36,12 @@
     min-height: 60vw;
     height: fit-content;
     flex-direction: column;
+    width: 361px;
   }
   .sectionTitle > h2 {
     font-size: 18px;
+  }
+  .sectionTitle {
+    width: 361px;
   }
 }

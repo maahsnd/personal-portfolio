@@ -79,7 +79,7 @@ h3 {
 
 @media (max-width: 500px) {
   .container {
-    width: 351.5px;
+    width: 361px;
     height: 357px;
   }
 
@@ -89,12 +89,12 @@ h3 {
 
   .screenshotContainer {
     background-color: pink;
-    width: 347.5px;
+    width: 357px;
     height: 230px;
   }
 
   .screenshot {
-    max-width: 347.5px;
+    max-width: 357px;
     height: auto;
     object-fit: fill;
   }
