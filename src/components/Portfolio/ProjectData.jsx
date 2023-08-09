@@ -12,7 +12,7 @@ const ProjectData = () => {
     {
       title: 'Shopping Cart App',
       description:
-        'A basic e-commerce site, featuring a product page where users can add items to a cart. Note: content null for time being; checkout not implemented.',
+        'A basic e-commerce site, featuring a product page where users can add items to a cart. Note: work in progress.',
       siteLink: 'https://maahsnd.github.io/shopping-cart/',
       repoLink: 'https://github.com/maahsnd/shopping-cart',
       screenShotSrc:
