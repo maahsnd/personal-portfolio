@@ -10,6 +10,7 @@
   width: 94vw;
   padding: 5px 5px 5px 13px;
   margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title {
@@ -38,10 +39,20 @@
   margin-right: 5px;
   height: 25px;
 }
+
+.emailIcon:hover {
+  transform: translateY(-2px);
+}
+
+.emailIcon:active {
+  transform: translateY(-5px);
+}
+
 .emailText {
   height: min-content;
   margin: 0;
   margin-bottom: -5px;
+  color: white;
 }
 
 @media (max-width: 500px) {

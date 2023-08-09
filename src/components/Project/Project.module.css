@@ -13,6 +13,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Raleway;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .screenshotContainer {
@@ -58,6 +59,18 @@
   background-color: white;
   border-radius: 15%;
   margin-left: 6px;
+}
+
+.icon:hover,
+.emailIcon:hover {
+  box-shadow: 0 0 10px var(--secondary);
+}
+
+.icon:active,
+.emailIcon:active {
+  background-color: var(--buttonPress);
+  box-shadow: 0 3px rgb(139, 139, 139);
+  transform: translateY(4px);
 }
 
 a > svg {

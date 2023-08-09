@@ -29,6 +29,11 @@
   max-height: 400px;
 }
 
+.frame,
+.bio {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .logo {
   object-fit: contain;
   height: auto;
@@ -54,10 +59,11 @@
   padding: 5px 10px 5px 10px;
   display: flex;
   flex-direction: column;
-  max-width: 627.5px;
+  max-width: 597px;
   height: fit-content;
   width: 94vw;
   min-width: 351px;
+  z-index: 0;
 }
 
 .bioTitle {
@@ -72,6 +78,16 @@
   background-color: white;
   border-radius: 15%;
   margin-left: 7px;
+}
+
+.icon:hover {
+  box-shadow: 0 0 10px var(--secondary);
+}
+
+.icon:active {
+  background-color: var(--buttonPress);
+  box-shadow: 0 3px rgb(139, 139, 139);
+  transform: translateY(4px);
 }
 
 .btnContainer {
@@ -109,5 +125,19 @@
   }
   .caption {
     font-size: 22px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    max-width: 94vw;
+    justify-content: center;
+  }
+  .frame {
+    width: 300px;
+  }
+  .bio {
+    width: 50vw;
   }
 }

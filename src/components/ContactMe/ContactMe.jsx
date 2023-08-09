@@ -17,7 +17,9 @@ const AboutMe = () => {
               alt="Email icon"
             />
           </a>
-          <p className={styles.emailText}>nmaahs11@gmail.com</p>
+          <a className={styles.emailText} href="mailto:nmaahs11@gmail.com">
+            nmaahs11@gmail.com
+          </a>
         </div>
       </footer>
     </>

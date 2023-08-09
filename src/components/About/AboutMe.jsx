@@ -28,6 +28,13 @@ function AboutMe() {
               few engineers can rival. I consider myself a craftsman, and strive
               to engineer as I write, pursuing the joy of writing clean,
               thoughtful code.
+              {/* ALT-TEXT, TAKEN FROM GUIDORIAL: If I don't know it, I figure it out.
+              Committed to the idea of life-long learning, I am passionate about web development 
+              and the endless possibilities it offers. 
+              I am always seeking new challenges and opportunities to grow and improve as a developer.
+              Whether working on a personal project or collaborating with a team, I am committed to 
+              delivering high-quality and scalable 
+              web applications that meet the needs of users and businesses. */}
             </p>
           </div>
 

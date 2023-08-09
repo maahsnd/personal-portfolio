@@ -1,7 +1,7 @@
 body {
-  background-image: url('https://res.cloudinary.com/dscsiijis/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1691532708/portfolio%20assets/background_shrunk.jpg');
-  background-size: contain;
-  background-repeat: repeat;
+  /* background-image: url('https://res.cloudinary.com/dscsiijis/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1691532708/portfolio%20assets/background_shrunk.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
   overflow-x: hidden;
@@ -28,4 +28,6 @@ body {
 :root {
   --primary: rgb(9, 61, 9);
   --primaryTransparent: rgba(9, 61, 9, 0.497);
+  --buttonPress: yellow;
+  --secondary: pink;
 }
