@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 647.5px;
+  width: 547.5px;
   height: 557px;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@
 
 .screenshotContainer {
   background-color: var(--primaryTransparent);
-  width: 643.5px;
-  height: 560px;
+  width: 543.5px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -28,13 +28,13 @@
 
 .screenshot {
   object-fit: fill;
-  max-width: 643.5px;
+  max-width: 543.5px;
   height: auto;
 }
 
 .projectDetails {
   min-width: 447.5px;
-  min-height: 130px;
+  min-height: 150px;
   background-color: var(--primary);
   padding-left: 5px;
 }
