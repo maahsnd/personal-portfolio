@@ -32,7 +32,6 @@
 }
 
 .emailIcon {
-  color: white;
   height: 30px;
 }
 .emailA {
@@ -52,7 +51,7 @@
   height: min-content;
   margin: 0;
   margin-bottom: -5px;
-  color: white;
+  color: black;
 }
 
 @media (max-width: 500px) {
