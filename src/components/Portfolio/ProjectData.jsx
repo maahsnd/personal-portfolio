@@ -7,7 +7,7 @@ const ProjectData = () => {
       siteLink: 'https://maahsnd.github.io/memory-card/',
       repoLink: 'https://github.com/maahsnd/memory-card/tree/Main',
       screenShotSrc:
-        'https://res.cloudinary.com/dscsiijis/image/upload/q_100/v1691516016/portfolio%20assets/Screen_Shot_2023-08-08_at_10.32.34_AM_yizmhv.jpg'
+        'https://res.cloudinary.com/dscsiijis/image/upload/v1691419749/avatar/appa_skwnqe.jpg'
     },
     {
       title: 'Shopping Cart App',
@@ -16,7 +16,7 @@ const ProjectData = () => {
       siteLink: 'https://maahsnd.github.io/shopping-cart/',
       repoLink: 'https://github.com/maahsnd/shopping-cart',
       screenShotSrc:
-        'https://res.cloudinary.com/dscsiijis/image/upload/q_100/v1691516012/portfolio%20assets/Screen_Shot_2023-08-08_at_10.33.09_AM_stpsiu.jpg'
+        'https://res.cloudinary.com/dscsiijis/image/upload/c_scale,w_617/v1691700411/portfolio%20assets/shopping-cart-mini_kupla7.jpg'
     }
   ];
 

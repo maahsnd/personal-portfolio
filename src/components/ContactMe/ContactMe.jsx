@@ -4,10 +4,9 @@ const AboutMe = () => {
   return (
     <>
       <footer className={styles.container}>
-        <h4 className={styles.title}>Contact Me</h4>
+        <h4 className={styles.title}>Contact Me!</h4>
         <p className={styles.text}>
-          Please get in touch if you think our work could be mutually
-          beneficial!
+          My inbox is open, and I'm always happy to talk.
         </p>
         <div className={styles.email}>
           <a href="mailto:nmaahs11@gmail.com" className={styles.emailA}>
