@@ -17,6 +17,17 @@
   margin: 5px 5px 0px 8px;
 }
 
+.captionBanner {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: rgba(20, 20, 74, 0.896);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .frame {
   width: fit-content;
   position: relative;
@@ -45,11 +56,9 @@
 .caption {
   font-family: 'Raleway';
   position: absolute;
-  z-index: 2;
-  color: rgb(8, 8, 68);
+  z-index: 3;
+  color: white;
   font-size: 190%;
-  margin-bottom: 7%;
-  text-shadow: rgb(221, 219, 219) 1px 1px 5px;
   max-width: 230px;
 }
 

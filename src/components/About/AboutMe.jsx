@@ -15,7 +15,9 @@ function AboutMe() {
             className={styles.logo}
             alt="Photo of author smiling"
           />
-          <span className={styles.caption}>Nicholas Maahs</span>
+          <div className={styles.captionBanner}>
+            <span className={styles.caption}>Nicholas Maahs</span>
+          </div>
         </div>
         <div className={styles.bio}>
           <div>
