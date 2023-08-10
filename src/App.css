@@ -28,6 +28,6 @@ body {
 :root {
   --primary: lightblue;
   --primaryTransparent: rgba(9, 61, 9, 0.497);
-  --buttonPress: yellow;
+  --buttonPress: pink;
   --secondary: pink;
 }
