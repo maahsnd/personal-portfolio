@@ -1,8 +1,6 @@
 body {
-  background-image: url('https://res.cloudinary.com/dscsiijis/image/upload/c_scale,w_1969/v1691605983/bg1_wmsfkm.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: black;
+
   background-attachment: scroll;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -14,7 +12,7 @@ body {
 }
 
 .page {
-  margin: 3vh 5vw 3vh 5vw;
+  margin: 0vh 5vw 3vh 5vw;
   min-height: 90vh;
   height: auto;
   width: 94vw;

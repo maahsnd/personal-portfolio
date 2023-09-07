@@ -1,0 +1,19 @@
+.menuContainer {
+  display: flex;
+  width: 94vw;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  max-width: 1250px;
+  color: white;
+  font-family: Inter, system-ui, Avenir, Helvetica;
+}
+
+.linkContainer > a {
+  margin: 0 3px 0 3px;
+  color: white;
+}
+
+.menuTitle {
+  font-weight: 400;
+}

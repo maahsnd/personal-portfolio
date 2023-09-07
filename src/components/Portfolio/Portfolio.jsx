@@ -6,7 +6,7 @@ const Portfolio = () => {
   const data = ProjectData();
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.sectionTitle}>
         <h2>My work</h2>
       </div>
@@ -26,7 +26,7 @@ const Portfolio = () => {
           screenShotSrc={data[1].screenShotSrc}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
